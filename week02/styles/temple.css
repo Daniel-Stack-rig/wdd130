@@ -3,7 +3,8 @@ body {
     line-height: 1.6;
 }
 
-header {
+header,
+footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -50,9 +51,4 @@ ul {
 
 footer {
     font-size: .9rem;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-
 }
