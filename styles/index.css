@@ -13,8 +13,8 @@ aside {
     text-align: center;
 }
 
-aside imag {
-    width: 150px;
+aside img {
+    width: 200px;
     height: auto;
 }
 
@@ -28,6 +28,7 @@ nav a {
     color: white;
     text-decoration: underline;
     margin-bottom: 15px;
+    padding: 10px;
     font-size: 18px;
 }
 
