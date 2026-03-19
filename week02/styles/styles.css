@@ -1,61 +1,58 @@
-/* styles/styles.css */
-
-nav {
-    background-color: #333;
-    padding: 1rem;
-}
-
-nav a {
-    color: white;
-    padding: 0.5rem 1rem;
-    display: block;
-    text-decoration: none;
-}
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
-}
-
-h1 {
-    color: #2c3e50;
-}
-
-main img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    padding: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-aside {
-    width: 300px;
-    margin: 2rem auto;
-    border: 1px solid #ccc;
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    color: #333;
-    border-radius: 8px;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-}
-
-p {
+* {
+    margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
+header,
 footer {
-    margin-top: 3rem;
-    border-top: 2px solid #ddd;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    padding: 1rem;
-    background-color: #f8f9fa;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: rgb(232, 237, 251);
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+footer {
+    font-size: .9rem;
 }
