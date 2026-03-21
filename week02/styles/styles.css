@@ -80,3 +80,46 @@ footer {
     font-size: .9rem;
     margin-top: 15px
 }
+
+/* Add... */
+
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+aside p {
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+aside ul {
+    margin: 10px 0 10px 20px;
+    padding-left: 0;
+}
+
+aside li {
+    margin-bottom: 5px;
+}
