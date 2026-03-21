@@ -37,8 +37,9 @@ nav {
 }
 
 nav a {
+    padding: 10px;
     display: block;
-    color: steelblue padding: 10px;
+    color: steelblue
 }
 
 h1 {
