@@ -4,42 +4,20 @@
     box-sizing: border-box;
 }
 
-:root {
-    /* Colors */
-    --color-primary: #4f81bd;
-    --color-secondary: steelblue;
-    --color-background: #eee;
-    --color-text: #333;
-    --color-text-light: white;
-    --color-border: rgb(0 0 0 / 0.2);
-    --color-border-dark: #000;
-    --color-shadow: gray;
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
 
-    /* Spacing */
-    --spacing-xs: 2px;
-    --spacing-sm: 10px;
-    --spacing-md: 15px;
-    --spacing-lg: 20px;
-    --spacing-xl: 1rem;
-    --spacing-xxl: 2px;
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
 
-    /* Typography */
-    --font-size-base: 18px;
-    --font-size-small: 16px;
-
-    /* Layout */
-    --container-max-width: 840px;
-    --aside-width: 20rem;
-    --image-width-main: 150px;
-    --image-width-aside: 200px;
-    --border-width: 1px;
-    --border-radius: 0;
-    --box-shadow: 0 0 30px var(--color-shadow);
-
-    /* Borders */
-    --border-light: var(--border-width) solid var(--color-border);
-    --border-dark: var(--border-width) solid var(--color-border-dark);
-    --border-accent: var(--border-width) solid var(--color-secondary);
+h1 {
+    color: steelblue;
+    padding: .5rem;
 }
 
 main {
@@ -49,68 +27,49 @@ main {
 main img {
     width: 150;
     height: auto;
-    float: right;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
     margin: 1rem 0 1rm 1rm;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    left: 150px;
+    top: 67px;
+
+}
+
+aside img {
+    width: 250px;
+    height: auto;
+}
+
+p {
+    margin: 1rem;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1 solid #000;
+    text-align: center;
 }
 
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #eee;
     color: #000;
 }
 
-aside {
-    width: var(--aside-width);
-    margin: var(--spacing-xl);
-    border: var(--border-light);
-    padding: var(--spacing-xl);
-    background-color: var(--color-background);
-    color: var(--color-text);
-    text-align: center;
-}
-
-aside h2 {
-    position: absolute;
-    left: 150px;
-    margin-top: 0;
-    display: block;
-
-}
-
-aside img {
-    width: var(--image-width-aside);
-    height: auto;
-}
-
-nav {
-    background-color: var(--color-primary);
-    padding: var(--spacing-lg);
-}
-
-nav a {
-    display: block;
-    padding: var(--spacing-sm);
-    color: var(--color-text-light);
-    text-decoration: underline;
-    margin-bottom: var(--spacing-md);
-    font-size: var(--font-size-base);
-}
-
-h1 {
-    color: var(--color-secondary);
-}
-
-p {
-    padding: 0;
-}
-
-footer {
-    margin-top: var(--spacing-md);
-    border-top: var(--border-dark);
-    text-align: center;
+.indent {
+    padding-left: 2rem;
 }
