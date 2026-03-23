@@ -69,10 +69,19 @@ aside {
     text-align: center;
 }
 
-aside h2 {
+/* aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+} */
+
+aside h2 {
+    /* removed absolute positioning: top/left no longer applied */
+    position: static;
+    margin-top: 0;
+
+    display: block;
+
 }
 
 aside img {
