@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: var(--white);
+    background-color: var(--accent2-color);
     color: var(--white);
 }
 
@@ -90,7 +90,33 @@ article {
     margin-left: 16px;
 }
 
-.socialmedia img {
-    width: 32px;
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent2-color);
+    /* light purple */
+    padding: 5px 10px;
+}
+
+/* Footer text */
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--accent1-color);
+}
+
+/* Social media container */
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+/* Social media icons */
+.socialmedia a img {
+    width: 50px;
     height: auto;
+    /* border: 1px solid #666; */
+    padding: 5px;
+    /* background-color: #eee; */
 }
