@@ -10,11 +10,48 @@
     --heading-fonts: "Times New Roman", "Georgia", serif;
 }
 
-header {
+/* header {
     background-color: var(--accent2-color);
     color: var(--white);
     padding: 32px;
 
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent2-color);
+    padding: 20px 40px;
+    border: 1px solid var(--accent1-color);
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #555;
+    background-color: var(--white);
+    color: var(--accent1-color);
+    font-family: Arial, sans-serif;
+}
+
+/* Remove double borders between buttons */
+.nav a:not(:last-child) {
+    border-right: none;
+}
+
+.nav a:hover {
+    background-color: #ddd;
 }
 
 * {
@@ -100,7 +137,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent2-color);
-    /* light purple */
     padding: 5px 10px;
 }
 
@@ -111,13 +147,11 @@ footer p {
     color: var(--accent1-color);
 }
 
-/* Social media container */
 .socialmedia {
     display: flex;
     gap: 10px;
 }
 
-/* Social media icons */
 .socialmedia a img {
     width: 50px;
     height: auto;
